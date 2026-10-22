@@ -1,4 +1,4 @@
-# Python-generated files
+# Python缓存
 __pycache__/
 *.py[oc]
 build/
@@ -6,5 +6,21 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+# 虚拟环境
+.venv/
+
+# vscode配置
+.vscode/
+
+# uv
+uv.lock
+
+# 日志、输出、模型权重
+*.log
+outputs/
+checkpoints/
+*.bin
+*.safetensors
+
+# 其他
+.DS_Store
